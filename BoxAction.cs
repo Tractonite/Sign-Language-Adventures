@@ -11,7 +11,7 @@ public class BoxAction : MonoBehaviour
     void Update()
     {
         if(Input.GetKeyDown(KeyCode.A)){
-            // Generate a ray from the object's position in its forward direction
+            // Generate a ray frm the object's position in its forward direction
             Ray ray = mainCamera.ScreenPointToRay(Input.mousePosition);
             RaycastHit hit;
 
