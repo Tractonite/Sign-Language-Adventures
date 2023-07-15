@@ -17,6 +17,7 @@ def handDetect():
   offset = 20
   imgSize = 300
   labels = ["A","B"]
+  # a new comment
   try:
     while True:
       success, img = cap.read()
@@ -53,6 +54,7 @@ def handDetect():
           except Exception as e:
             print(f"An error occurred: {str(e)}")
             
+        # another comment
         elif len(hands)==1:
           try:
             hand = hands[0]
